@@ -46,6 +46,10 @@ public class SkypeTest {
 		}
 	}
 
+	/**
+	 * Kommentar
+	 * @throws Exception
+	 */
 	@Test
 	public void testSkypeLoginWithoutPassword() throws Exception {
 		driver.get("https://www.skype.com/de/new/");
