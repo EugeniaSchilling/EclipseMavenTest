@@ -26,6 +26,10 @@ public class SkypeTest {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
+	/**
+	 * Kommetar
+	 * @throws Exception
+	 */
 	@Test
 	public void testSkypeLoginWithoutAll() throws Exception {
 		driver.get("https://www.skype.com/de/new/");
@@ -47,7 +51,7 @@ public class SkypeTest {
 	}
 
 	/**
-	 * Kommentar
+	 * Kommentar Test
 	 * @throws Exception
 	 */
 	@Test
