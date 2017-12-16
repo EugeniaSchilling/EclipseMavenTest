@@ -60,7 +60,7 @@ public class SkypeTest {
 		driver.findElement(
 				By.xpath("//div[@id='nav-buttons-wrapper']/nav/ul/li[4]/a/span[2]"))
 				.click();
-		driver.findElement(By.xpath("(//a[contains(text(),'Mein Konto')])[3]"))
+		driver.findElement(By.xpath("(//a[contains(text(),'Mein Konto1')])[3]"))
 				.click();
 		driver.findElement(By.id("username")).clear();
 		driver.findElement(By.id("username")).sendKeys("evgenia.shiling");
