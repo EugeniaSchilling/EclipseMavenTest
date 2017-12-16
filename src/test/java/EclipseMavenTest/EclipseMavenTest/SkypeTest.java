@@ -51,7 +51,7 @@ public class SkypeTest {
 	}
 
 	/**
-	 * Kommentar Test
+	 * Kommentar Test1
 	 * @throws Exception
 	 */
 	@Test
