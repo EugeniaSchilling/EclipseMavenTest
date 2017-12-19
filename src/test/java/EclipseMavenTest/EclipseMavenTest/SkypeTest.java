@@ -36,7 +36,7 @@ public class SkypeTest {
 		driver.findElement(
 				By.xpath("//div[@id='nav-buttons-wrapper']/nav/ul/li[4]/a/span"))
 				.click();
-		driver.findElement(By.xpath("(//a[contains(text(),'Mein Konto')])[3]"))
+		driver.findElement(By.xpath("(//a[contains(text(),'Mein Konto1111')])[3]"))
 				.click();
 		driver.findElement(By.id("signIn")).click();
 		driver.findElement(By.id("idSIButton9")).click();
