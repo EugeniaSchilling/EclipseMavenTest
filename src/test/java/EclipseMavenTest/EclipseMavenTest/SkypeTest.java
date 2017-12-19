@@ -27,7 +27,7 @@ public class SkypeTest {
 	}
 
 	/**
-	 * Kommetar test
+	 * Kommetar 
 	 * @throws Exception
 	 */
 	@Test
