@@ -28,6 +28,13 @@
 		    <name>3.1</name>
 	    </pluginRepository>
 	    
+		<pluginRepository>
+			<url>https://repo.maven.apache.org/maven2/</url>
+			<layout>org.apache.maven.plugins</layout>
+		    <id>maven-clean-plugin</id>
+		    <name>2.5</name>
+	    </pluginRepository>
+		
 	</pluginRepositories>
 
 
