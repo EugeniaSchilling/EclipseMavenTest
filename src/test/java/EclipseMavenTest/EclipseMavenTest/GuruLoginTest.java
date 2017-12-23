@@ -29,7 +29,7 @@ public class GuruLoginTest
     @Test
     public void testCase() throws Exception {
     	driver.get(baseUrl);
-    	WebElement element=driver.findElement(By.xpath("//input[@name='emailid']"));        
+    	WebElement element=driver.findElement(By.xpath("//input[@name='emailid1']"));        
 		element.sendKeys("abc@gmail.com");            
 		WebElement button=driver.findElement(By.xpath("//input[@name='btnLogin']"));         
 	button.click(); 
