@@ -44,7 +44,7 @@ public class SkypeTest {
 		try {
 			assertEquals(
 					driver.findElement(By.id("usernameError")).getText(),
-					"Geben Sie eine g�ltige E-Mail-Adresse, eine Telefonnummer oder einen Skype-Namen ein.");
+					"E-Mail-Adresse, eine Telefonnummer oder einen Skype-Namen ein.");
 		} catch (Error e) {
 			verificationErrors.append(e.toString());
 		}
@@ -69,7 +69,7 @@ public class SkypeTest {
 		driver.findElement(By.id("passwordError")).click();
 		try {
 			assertEquals(driver.findElement(By.id("passwordError")).getText(),
-					"Bitte geben Sie das Kennwort f�r Ihr Microsoft-Konto ein.");
+					"Bitte geben Sie das Kennwort");
 		} catch (Error e) {
 			verificationErrors.append(e.toString());
 		}
