@@ -40,7 +40,7 @@ public class SkypeTest {
 				.click();
 		driver.findElement(By.id("signIn")).click();
 		driver.findElement(By.id("idSIButton9")).click();
-		driver.findElement(By.id("usernameError222")).click();
+		driver.findElement(By.id("usernameError")).click();
 		try {
 			assertEquals(
 					driver.findElement(By.id("usernameError")).getText(),
