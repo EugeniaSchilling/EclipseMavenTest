@@ -39,7 +39,7 @@ public class SkypeTest {
 		driver.findElement(By.xpath("(//a[contains(text(),'Mein Konto')])[3]"))
 				.click();
 		driver.findElement(By.id("signIn")).click();
-		driver.findElement(By.id("idSIButton9")).click();
+		driver.findElement(By.id("idSIButton912")).click();
 		driver.findElement(By.id("usernameError")).click();
 		try {
 			assertEquals(
